@@ -132,3 +132,81 @@ section {
   margin-top: 10px;
   color: #ccc;
 }
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+/* Tablets & Mobile */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* HOME SECTION */
+  .home {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .desc {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 40px 20px;
+  }
+
+  /* PROJECTS */
+  .project-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+}
