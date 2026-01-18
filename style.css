@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.logo {
+  color: #00f7ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a.active,
+nav a:hover {
+  color: #00f7ff;
+}
+
+/* HOME */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  gap: 60px;
+}
+
+.profile img {
+  width: 280px;
+  border-radius: 50%;
+  border: 6px solid #00f7ff;
+}
+
+.hello span {
+  color: #00f7ff;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.desc {
+  max-width: 450px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.primary {
+  background: #00f7ff;
+  color: #000;
+}
+
+.outline {
+  border: 2px solid #00f7ff;
+  color: #00f7ff;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  color: #ccc;
+}
+
+/* PROJECTS */
+.project-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 8px;
+  width: 220px;
+}
+
+/* CONTACT */
+.contact p {
+  margin-top: 10px;
+  color: #ccc;
+}
